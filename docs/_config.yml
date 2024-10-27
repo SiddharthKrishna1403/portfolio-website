@@ -8,6 +8,16 @@ locale: "en-US"
 name: "Siddharth Krishna Senthilkumar"
 description: "Bioinformatics & Statistical Analysis Portfolio"
 
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+  - jekyll-include-cache
+
 # Navigation
 navigation:
   - title: Projects
