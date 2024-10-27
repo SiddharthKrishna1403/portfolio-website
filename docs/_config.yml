@@ -1,1 +1,20 @@
-#Site Configuration
+# Basic configuration
+title: "Your Portfolio"
+theme: minimal-mistakes
+remote_theme: mmistakes/minimal-mistakes
+
+# Site settings
+locale: "en-US"
+name: "Your Name"
+description: "Bioinformatics & Statistical Analysis Portfolio"
+
+# Navigation
+navigation:
+  - title: Projects
+    children:
+      - title: "Reproducible NixOS Bioinformatics Environment"
+        url: /projects/nix-bio/
+      - title: "Epigenetic Networks in Plant Stress"
+        url: /projects/plant-stress/
+      - title: "Clinical Outcomes in Critical Care"
+        url: /projects/mimic-study/
