@@ -6,6 +6,15 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # `jekyll serve`. If you change this file, please restart the server process.
 
+# Basic configuration
+title: "Sid's Portfolio"
+theme: minimal-mistakes
+
+# Site settings
+locale: "en-US"
+name: "Siddharth Krishna Senthilkumar"
+description: "Bioinformatics & Statistical Analysis Portfolio"
+
 remote_theme             : "mmistakes/minimal-mistakes@master"
 
 minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
@@ -383,4 +392,7 @@ mimic:
     url: /projects/mimic-study/progress/
   - title: Learning Journey
     url: /projects/mimic-study/learning/
+<<<<<<< HEAD
+>>>>>>> 44d4abf0 (Initialize Project Documentation)
+=======
 >>>>>>> 44d4abf0 (Initialize Project Documentation)
