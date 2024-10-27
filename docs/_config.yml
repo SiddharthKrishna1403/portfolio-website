@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Welcome to Jekyll!
 #
 # This config file is meant for settings that affect your entire site, values
@@ -330,3 +331,56 @@ compress_html:
   clippings: all
   ignore:
     envs: development
+=======
+# Basic configuration
+title: "Sid's Portfolio"
+theme: minimal-mistakes
+remote_theme: mmistakes/minimal-mistakes
+
+# Site settings
+locale: "en-US"
+name: "Siddharth Krishna Senthilkumar"
+description: "Bioinformatics & Statistical Analysis Portfolio"
+
+# Navigation
+navigation:
+  - title: Projects
+    children:
+      - title: "Reproducible NixOS Bioinformatics Environment"
+        url: /projects/nix-bio/
+      - title: "Epigenetic Networks in Plant Stress"
+        url: /projects/plant-stress/
+      - title: "Clinical Outcomes in Critical Care"
+        url: /projects/mimic-study/
+
+# Project-specific navigation
+nix_bio:
+  - title: Project Overview
+    url: /projects/nix-bio/
+  - title: Technical Details
+    url: /projects/nix-bio/technical/
+  - title: Progress
+    url: /projects/nix-bio/progress/
+  - title: Learning Journey
+    url: /projects/nix-bio/learning/
+
+plant_stress:
+  - title: Project Overview
+    url: /projects/plant-stress/
+  - title: Technical Details
+    url: /projects/plant-stress/technical/
+  - title: Progress
+    url: /projects/plant-stress/progress/
+  - title: Learning Journey
+    url: /projects/plant-stress/learning/
+
+mimic:
+  - title: Project Overview
+    url: /projects/mimic-study/
+  - title: Technical Details
+    url: /projects/mimic-study/technical/
+  - title: Progress
+    url: /projects/mimic-study/progress/
+  - title: Learning Journey
+    url: /projects/mimic-study/learning/
+>>>>>>> 44d4abf0 (Initialize Project Documentation)
