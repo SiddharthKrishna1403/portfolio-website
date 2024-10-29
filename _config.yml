@@ -113,11 +113,11 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : "Siddharth Krishna Senthilkumar"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "Somewhere"
-  email            :
+  bio              : "I tend to go where my fascination leads me"
+  location         : "Dallas, Texas"
+  email            : "siddharthkrishna.ssk@gmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
